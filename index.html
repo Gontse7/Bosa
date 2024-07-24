@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>Bosa-app</title>
 </head>
 <body>
     <div>
     <header>
-<forms id="search-form">
+<form class="search-form" id="search-form">
     <input type="search" placeholder="Enter a city..." required id="search-form-input"
             class="search-form-input" />
     <input type="submit" value="search" class="search-form-button" />
-</forms>
+</form>
     </header>
     <main>
  <div class="weather-app-data">
@@ -35,7 +36,9 @@
     <footer>
         This weather app is coded by <a href="https://github.com/Gontse7" target="_blank">Gontse H Mogana</a>, with an open saurce on <a href="https://github.com/Gontse7/Bosa" target="_blank">GitHub</a> and hosted on Netifly.
     </footer>
-</div>
+  </div>
+
     <script src="src/index.js"></script>
+
 </body>
 </html>

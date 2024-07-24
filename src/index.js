@@ -1,9 +1,9 @@
-function handleSearchsubmit(event){
-    event.preventDefault();
-    let searchformInput = document.querySelector("#search-form-input");
+function handleSearchSubmit(event) {
+   event.preventDefault();
+    let searchInput = document.querySelector("#search-form-input");
     let cityElement = document.querySelector("#city");
-    cityElement.textContent = searchformInput.value;
+    cityElement.innerHTML = searchInput.value;
 }
 
-let searchformElement = document.querySelector("#search-form");
-searchformElement.addEventListener("submit", handleSearchsubmit);
+let searchFormElement = document.querySelector("#search-form");
+searchFormElement.addEventListener("submit", handleSearchSubmit);
